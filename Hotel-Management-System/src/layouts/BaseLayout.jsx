@@ -4,8 +4,8 @@ import { Outlet,Link } from "react-router-dom";
 const BaseLayout = () => {
   return (
     <div className="flex flex-col min-h-screen">
-    <header className="bg-blue-500 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <header className="bg-black text-white p-4">
+      <div className="container mx-auto flex justify-end">
         <nav>
           <ul className="flex space-x-4">
             <li><Link to="/" className="hover:underline">Home</Link></li>
