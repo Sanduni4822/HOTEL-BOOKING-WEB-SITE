@@ -5,7 +5,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault();npm
+    e.preventDefault();
     // Add login logic here
     console.log('Email:', email);
     console.log('Password:', password);
