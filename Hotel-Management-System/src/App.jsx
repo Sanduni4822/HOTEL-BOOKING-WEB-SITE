@@ -5,6 +5,7 @@ import BaseLayout from "./layouts/BaseLayout";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import ServicesPage from "./pages/ServicesPage";
+import ContactUsPage from "./pages/ContactUsPage";
 
 
 const router = createBrowserRouter([
@@ -46,6 +47,17 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <ServicesPage />,
+      },
+    ],
+  },
+
+  {
+    path: "/contact",
+    element: <BaseLayout />,
+    children: [
+      {
+        index: true,
+        element: <ContactUsPage />,
       },
     ],
   },
