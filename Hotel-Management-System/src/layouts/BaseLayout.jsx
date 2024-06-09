@@ -20,7 +20,7 @@ const BaseLayout = () => {
             <ul className="flex space-x-4">
               <li><Link to="/login" className="hover:underline">Login</Link></li>
               <li><Link to="/sign-up" className="hover:underline">SignUp</Link></li>
-              <li><Link to="/book-now" className="hover:underline">Book Now!</Link></li>
+              <li><Link to="/book-now" className="bg-white hover:bg-gray-100 text-black font-bold py-2 px-4 rounded">Book Now!</Link></li>
             </ul>
           </nav>
         </div>
