@@ -1,7 +1,7 @@
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import BaseLayout from "./layouts/BaseLayout"
+import BaseLayout from "./layouts/BaseLayout";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import ServicesPage from "./pages/ServicesPage";
@@ -56,6 +56,7 @@ function App() {
   return (
     <div>
         <RouterProvider router={router} />
+        
     </div>
   );
 }
